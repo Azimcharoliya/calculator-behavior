@@ -100,7 +100,7 @@ Scenario: Multiplication of numbers where result goes out of range.
 
   Then the calculator will show out of range on calculator screen.
 
-Scenarios: Pressing multiply button multiple times.
+Scenarios: Pressing multiply button more than one times.
 
   Given the calculator is on and the calculator screen is clear.
 
@@ -110,7 +110,7 @@ Scenarios: Pressing multiply button multiple times.
         And type in number\
         And press equals.
 
-  Then the calculator will simply show multiplication on calculator screen.
+  Then the calculator will show multiplication on calculator screen.
   
 Scenarios: Multiplication by one.
 

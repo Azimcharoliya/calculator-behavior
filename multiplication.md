@@ -79,7 +79,7 @@ Scenario: multiplication of two fractions.
   Given the calculator is on and the calculator screen is clear.
 
   When I press opening bracket\
-	And type in fraction\
+        And type in fraction\
         And closing bracket\
         And press multiply\
         And press opening bracket\
@@ -93,10 +93,10 @@ Scenario: Multiplication of numbers where result goes out of range.
 
   Given the calculator is on and the calculator screen is clear.
 
-  When I type in number\ 
-	And press multiply\
-	And type in number\
-	And press equals.
+  When I type in number\
+        And press multiply\
+        And type in number\
+        And press equals.
 
   Then the calculator will show out of range on calculator screen.
 
@@ -104,11 +104,11 @@ Scenarios: Pressing multiply button multiple times.
 
   Given the calculator is on and the calculator screen is clear.
 
-  When I type in number\ 
-	And press multiply\
-	And press multiply again\
-	And type in number\
-	And press equals.
+  When I type in number\
+        And press multiply\
+        And press multiply again\
+        And type in number\
+        And press equals.
 
   Then the calculator will simply show multiplication on calculator screen.
   
@@ -116,10 +116,10 @@ Scenarios: Multiplication by one.
 
   Given the calculator is on and the calculator screen is clear.
 
-  When I type in first number\ 
-	And press multiply\
-	And type in 1\
-	And press equals.
+  When I type in first number\
+        And press multiply\
+        And type in 1\
+        And press equals.
 
   Then the calculator will show the first number on calculator screen.
   
@@ -127,9 +127,9 @@ Scenarios: Multiplication by zero.
 
   Given the calculator is on and the calculator screen is clear.
 
-  When I type in first number\ 
-	And press multiply\
-	And type in 0\
-	And press equals.
+  When I type in first number\
+        And press multiply\
+        And type in 0\
+        And press equals.
 
   Then the calculator will show zero on calculator screen.

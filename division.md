@@ -60,7 +60,7 @@ Scenario: Division of two decimal numbers.
         And type in decimal number\
         And press equals.
   
-  Then the calculator screen will show division rounded upto two decimal places.
+  Then the calculator screen will show division of two numbers.
   
 Scenario: When input syntax is invalid.
   

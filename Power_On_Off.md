@@ -7,7 +7,7 @@ Scenario: User presses the power off button.
   
   When I press power button
   
-  Then the calculator should be turned off and screen should be cleared.
+  Then the calculator turns off and screen clears.
   
 Scenario: User presses the power on button.
 
@@ -15,4 +15,4 @@ Scenario: User presses the power on button.
   
   When I press power button
   
-  Then the calculator should be turned on with clear screen.
+  Then the calculator turns on with clear screen.

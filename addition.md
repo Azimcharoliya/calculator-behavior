@@ -2,7 +2,7 @@
 
 Scenario: Addition of two positive integer numbers
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in positive number
         And press plus
@@ -13,7 +13,7 @@ Scenario: Addition of two positive integer numbers
 
 Scenario: Addition of two negative numbers.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in negative number
         And press plus
@@ -26,7 +26,7 @@ Scenario: Addition of two negative numbers.
   
 Scenario: Addition of one positive and one negative numbers.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in positive number
         And press plus
@@ -39,7 +39,7 @@ Scenario: Addition of one positive and one negative numbers.
   
 Scenario: Addition of one negative and positive numbers.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in negative number
         And press plus
@@ -50,7 +50,7 @@ Scenario: Addition of one negative and positive numbers.
 
 Scenario: Addition of more than two numbers.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in number
         And press plus
@@ -64,7 +64,7 @@ Scenario: Addition of more than two numbers.
 
 Scenario: Addition of two decimal numbers.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in decimal number
         And press plus
@@ -75,7 +75,7 @@ Scenario: Addition of two decimal numbers.
   
 Scenario: Addition of numbers where result goes out of range.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in number
         And press plus
@@ -86,7 +86,7 @@ Scenario: Addition of numbers where result goes out of range.
   
 Scenario: When input syntax is invalid.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I type in number
         And press plus
@@ -98,7 +98,7 @@ Scenario: When input syntax is invalid.
   
 Scenario: When plus operator is pressed more than once successively.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
   
   When I type in number
         And press plus
@@ -110,7 +110,7 @@ Scenario: When plus operator is pressed more than once successively.
   
 Scenario: Addition of two fractions.
   
-  Given the calculator is turned on and the calculator screen is clear.
+  Given the calculator is on and the calculator screen is clear.
 
   When I press opening bracket
         And type in fraction

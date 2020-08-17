@@ -6,7 +6,7 @@ Scenario: Addition of two positive integer numbers
 
   When I type in positive number
         And press plus
-        And type in poisitive number
+        And type in positive number
         And press equals.
   
   Then Calculator screen will show addition of two positive numbers.

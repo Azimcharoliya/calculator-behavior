@@ -49,7 +49,7 @@ Scenario: Division of more than two numbers.
         And repeat press divide and type in another number for remaining numbers\
         And press equals.
   
-  Then the calculator screen will show division of all the numbers in right to left manner.
+  Then the calculator screen will show division performed in right to left manner.
 
 Scenario: Division of two decimal numbers.
   
@@ -154,4 +154,5 @@ Scenarios: Recurring decimal case.
         And type in number \
         And press equals.
 
-  Then the calculator screen will show the division with line drawn over a recurring pattern.
+  Then the calculator screen will show the division
+  with line drawn over a recurring pattern.

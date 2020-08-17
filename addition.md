@@ -95,19 +95,7 @@ Scenario: When input syntax is invalid.
         And press equals.
   
   Then Calculator will show invalid syntax on calculator screen.
-  
-Scenario: When plus operator is pressed more than once successively.
-  
-  Given the calculator is on and the calculator screen is clear.
-  
-  When I type in number
-        And press plus
-        And press plus
-        And type in number
-        And press equals.
-  
-  Then Calculator will show invalid syntax on calculator screen.
-  
+
 Scenario: Addition of two fractions.
   
   Given the calculator is on and the calculator screen is clear.
